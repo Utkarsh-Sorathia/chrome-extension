@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Extension</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h3>Extension Control</h3>
+    <div class="toggle-container">
+      <label for="toggle">Enable Extension</label>
+      <label class="switch">
+        <input type="checkbox" id="toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <!-- Custom Alert Box -->
+    <div class="custom-alert" id="customAlert">
+      <span class="alert-close" id="closeAlert">&times;</span>
+      <p id="alertMessage"></p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
